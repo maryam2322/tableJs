@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+form {
+    border: 3px solid #33691e;
+    padding: 2rem;
+}
+
+label {
+    color: #33691e;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 20rem;
+    outline: #33691e;
+    padding: 1.2rem 1rem;
+    color: #003d00;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.form-action-buttons input {
+    margin-top: 1rem;
+    width: 40%;
+    background: #33691e;
+    border: none;
+    color: #aee571;
+}
+
+.form-action-buttons input:hover {
+    background: #003d00;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.table {
+    width: 60%;
+    border: 2px solid #33691e;
+    text-align: left;
+    margin: 1rem 2rem;
+}
+
+thead {
+    background: #629749;
+}
+
+th, td {
+    padding: 2rem;
+}
+
+th {
+    color: #003d00;
+    font-size: 2rem;
+}
+
+td {
+    color: #629749;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+tbody tr:hover {
+    background: #fff;
+}
+
+td button {
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #aee571;
+    color: #003d00;
+    border: none;
+}
+
+td button:hover {
+    border: 3px solid #003d00;
+}
+@media screen and(max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+}
+

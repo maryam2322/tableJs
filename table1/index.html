@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Table whit JS</title>
+</head>
+<body>
+
+<div class="container">
+    <form action="#" onsubmit="event.preventDefault();onFormSubmit();">
+        <div class="input">
+            <label for="id">Id</label>
+            <input type="text" name="id" id="id" required placeholder="Enter your id">
+        </div>
+        <div class="input">
+            <label for="fullName">Full name</label>
+            <input type="text" name="fullNme" id="fullName" required placeholder="Enter your full name">
+        </div>
+        <div class="input">
+            <label for="status">Status</label>
+            <input type="text" name="status" id="status" required placeholder="Enter your status">
+        </div>
+        <div class="input">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required placeholder="enter your Email">
+        </div>
+        <div class="form-action-buttons">
+            <input type="submit" value="Add">
+        </div>
+    </form>
+    <table class="table" id="employeeList">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Full name</th>
+            <th>Status</th>
+            <th>Email</th>
+            <th>Edit & Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
